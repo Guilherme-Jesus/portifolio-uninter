@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme - Desenvolvedor Frontend</title>
+    <script src="https://kit.fontawesome.com/15b18b7ba0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logo"><i class="fas fa-code"></i> Guilherme</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#education">Formação</a></li>
+                <li><a href="#skills">Portifolio</a></li>
+                <li><a href="#experience">Experiencia Profissional</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section id="intro">
+            <h1>Olá, eu sou <span>Guilherme Couto</span>
+                <p class="title">Desenvolvedor Frontend</p>
+            </h1>
+            <p>Eu crio sites e aplicativos web com foco na experiência do usuário.</p>
+            <a href="#contact" class="contact-btn">Contato</a>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <section id="about">
+        <h2><i class="fas fa-user"></i>Sobre Mim</h2>
+        <div class="about-text">
+            <p>Olá! Meu nome é Guilherme e sou um desenvolvedor frontend. Eu crio sites e aplicativos web com foco na
+                experiência do usuário. Eu sou apaixonado por tecnologia e estou sempre aprendendo novas coisas.</p>
+            <p>Eu tenho experiência com HTML, CSS, JavaScript, Typescript, React, Sass. Eu estou sempre procurando
+                melhorar minhas habilidades e aprender novas tecnologias.
+                de praticar esportes e jogar videogame.
+                Além de programar, eu gosto muito de musculação, corrida e de jogar videogame nas horas vagas.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2><i class="fas fa-brain"></i>Portfólio</h2>
+
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fas fa-globe-americas"></i>
+                <p><a href="https://project-travels.vercel.app/" target="_blank">Projeto Viagens</a></p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-envelope"></i>
+                <p><a href="https://messaging-app-sigma.vercel.app/login" target="_blank">Mensageria</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <h2><i class="fas fa-briefcase"></i>Experiência Profissional</h2>
+        <div class="experience-container">
+            <article class="experience-item">
+                <div class="experience-details">
+                    <h3>Zeus Agrotech</h3>
+                    <p>Desenvolvedor Frontend PL</p>
+                    <p><time datetime="2024-02">Fevereiro de 2024</time> - Presente</p>
+                    <p>Modalidade: Presencial</p>
+                    <p>Localização: Uberlândia, MG, Brasil</p>
+                    <h4>Responsabilidades:</h4>
+                    <ul>
+                        <li>Elaboração de interfaces climáticas sofisticadas.</li>
+                        <li>Consumo de APIs e correção de bugs.</li>
+                        <li>Construção de um microserviço com o padrão "Strangler Fig Pattern".</li>
+                    </ul>
+                    <h4>Tecnologias Utilizadas:</h4>
+                    <p>Leaflet, Google Maps, RTK Query, Redux Toolkit, React Context, CSS, SASS, Styled-Components,
+                        Stitches, Webpack, Tailwind.</p>
+                </div>
+            </article>
+            <article class="experience-item">
+                <div class="experience-details">
+                    <h3>MINUETO Music and Technology Solutions Inc.</h3>
+                    <p>Desenvolvedor Frontend Pleno</p>
+                    <p><time datetime="2023-10">Outubro de 2023</time> - <time datetime="2024-02">Fevereiro de
+                            2024</time>
+                    </p>
+                    <p>Duração: 5 meses</p>
+                    <p>Modalidade: Remota</p>
+                    <p>Localização: Ottawa, Ontário, Canadá</p>
+                    <h4>Responsabilidades:</h4>
+                    <ul>
+                        <li>Criação e implantação de novas features em aplicação responsiva.</li>
+                        <li>Utilização de animações lottie.</li>
+                    </ul>
+                    <h4>Tecnologias Utilizadas:</h4>
+                    <p>CSS, Vanilla JS, HTML, jQuery.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2><i class="fas fa-graduation-cap"></i> Formação Educacional</h2>
+        <div class="education-container">
+            <article class="education-item">
+                <h3>Centro Universitário Internacional</h3>
+                <p>CST em Análise e Desenvolvimento de Sistemas</p>
+                <p><time datetime="2021-08">Agosto de 2021</time> - <time datetime="2021-12">Atual</time>
+                </p>
+            </article>
+        <article class="education-item">
+            <h3>Cursos e Certificações</h3>
+            <p>Detalhes das certificações obtidas na Alura:</p>
+            <ul>
+                <li>React: Avançando em Middlewares com Listener Middleware</li>
+                <li>React: Mutabilidade x Imutabilidade no Redux Toolkit com Immer</li>
+                <li>React: Desenvolvendo uma biblioteca de componentes</li>
+                <li>React: Entendendo Middlewares com Redux Thunk</li>
+                <li>React: Gerenciamento de estados globais com Redux</li>
+            </ul>
+        </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><i class="fas fa-envelope"></i> Contato</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Guilherme. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
